@@ -1,0 +1,8 @@
+order_id,customer_id,product,category,quantity,unit_price,order_date,status,updated_at
+O2001,C001,iPhone 15,Electronics,1,79999,2025-03-01,DELIVERED,2025-03-03 15:00:00
+O2006,C005,Samsung TV,Electronics,1,45999,2025-03-02,DELIVERED,2025-03-03 16:00:00
+O2002,C002,Rice Bag 25kg,Grocery,2,1450,2025-03-01,RETURNED,2025-03-03 12:00:00
+O2003,C003,Nike Shoes,Fashion,1,5999,2025-03-01,PLACED,2025-03-01 12:30:00
+O2010,C005,Mixer Grinder,Electronics,1,3999,2025-03-01,DELIVERED,2025-03-03 10:00:00
+O2012,C003,Dal 5kg,Grocery,4,650,2025-03-02,DELIVERED,2025-03-03 11:00:00
+O2009,C002,Bluetooth Speaker,Electronics,1,3499,2025-03-03,PLACED,2025-03-03 09:00:00

@@ -1,0 +1,8 @@
+order_id,customer_id,product,category,quantity,unit_price,order_date,status,updated_at
+O2001,C001,iPhone 15,Electronics,1,79999,2025-03-01,SHIPPED,2025-03-02 09:00:00
+O2002,C002,Rice Bag 25kg,Grocery,2,1450,2025-03-01,DELIVERED,2025-03-02 18:00:00
+O2003,C003,Nike Shoes,Fashion,1,5999,2025-03-01,CANCELLED,2025-03-02 08:00:00
+O2006,C005,Samsung TV,Electronics,1,45999,2025-03-02,PLACED,2025-03-02 10:00:00
+O2007,C006,Jeans,Fashion,two,1999,2025-03-02,PLACED,2025-03-02 11:00:00
+O2008,C001,AirPods,electronics ,1,24999,03/02/2025,placed,2025-03-02 12:00:00
+O2012,C003,Dal 5kg,Grocery,4,650,2025-03-02,PLACED,2025-03-02 13:00:00

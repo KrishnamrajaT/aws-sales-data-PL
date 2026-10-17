@@ -145,6 +145,11 @@ Glue job, crawler, `sales_db` database ni console lo delete cheyandi.
 
 Ee small data tho okka run ki ~₹10–₹20 (Glue 2 DPU × ~1-2 min, 1 min minimum billing). S3 + Athena dadapu free.
 
+## Level 2: Real-time scenarios
+
+Daily incremental loads, data quality, quarantine, idempotent reruns, late-arriving updates:
+[docs/REAL_TIME_SCENARIOS.md](docs/REAL_TIME_SCENARIOS.md) chudandi.
+
 ## Next level (resume ki add cheyochu)
 
 1. **Automation**: S3 lo file upload avvagane **Lambda** trigger chesi Glue job start cheyadam.
