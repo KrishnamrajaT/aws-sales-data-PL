@@ -1,0 +1,21 @@
+{
+  "Name": "daily-orders-etl",
+  "Role": "GlueSalesRole",
+  "GlueVersion": "4.0",
+  "WorkerType": "G.1X",
+  "NumberOfWorkers": 2,
+  "Timeout": 10,
+  "MaxRetries": 0,
+  "Command": {
+    "Name": "glueetl",
+    "ScriptLocation": "s3://krishnam-sales-pipeline-974505631518/scripts/daily_orders_etl.py",
+    "PythonVersion": "3"
+  },
+  "DefaultArguments": {
+    "--base_path": "s3://krishnam-sales-pipeline-974505631518",
+    "--run_date": "2025-03-01",
+    "--max_reject_pct": "40",
+    "--enable-continuous-cloudwatch-log": "true",
+    "--TempDir": "s3://krishnam-sales-pipeline-974505631518/tmp/"
+  }
+}
